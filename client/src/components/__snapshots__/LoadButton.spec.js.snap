@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`load-button displays the loading status with a custom slot 1`] = `
+<button
+  class="button-primary"
+  disabled="disabled"
+>
+  <p>
+    Custom slot
+  </p>
+</button>
+`;
+
+exports[`load-button renders correctly with custom options 1`] = `
+<button
+  class="button-secondary"
+  disabled="disabled"
+/>
+`;
+
+exports[`load-button renders correctly with default options 1`] = `
+<button
+  class="button-primary"
+/>
+`;

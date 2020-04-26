@@ -1,0 +1,18 @@
+# install dependencies
+pip install -r requirements.txt
+
+# setup development database
+./manage.py makemigrations
+./manage.py migrate
+
+# load data
+./manage.py createsuperuser
+
+# run development server
+./manage.py runserver
+
+# add new posts
+1. go to page: http://127.0.0.1:8000/admin/
+2. login as superuser
+3. go to Django admin dashboard
+4. add posts

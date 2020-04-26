@@ -1,0 +1,46 @@
+{
+  "routes": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "register": "Register",
+    "notFound": "404 - Not Found"
+  },
+  "constants": {
+    "loading": "Loading..."
+  },
+  "components": {
+    "nav": {
+      "home": "Home",
+      "dashboard": "Dashboard",
+      "login": "Login",
+      "logout": "Logout"
+    }
+  },
+  "views": {
+    "dashboard": {
+      "title": "Dashboard",
+      "login": "Login",
+      "logout": "Logout"
+    },
+    "home": {
+      "welcomeMsg": "Welcome to Flower Liblary Vue.js App",
+      "loginMsg": "To use his app you will need to",
+      "login": "Login",
+      "register": "Register"
+    },
+    "login": {
+      "username": "Username",
+      "password": "Password",
+      "login": "Login",
+      "signUp": "Sign up"
+    },
+    "register": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "register": "Register",
+      "signIn": "Sign in"
+    }
+  }
+}
